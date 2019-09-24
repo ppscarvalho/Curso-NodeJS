@@ -12,14 +12,12 @@
 			<thead>
 				<th>Id</th>
 				<th>Título</th>
-				<th>Notícia</th>
 			</thead>
 			<tbody>
 				<% for(var i=0; i< noticias.length; i++) {%>
 				<tr>
 						<td><%= noticias[i].id_noticias%></td>
 						<td><%= noticias[i].titulo%></td>
-						<td><%= noticias[i].noticia%></td>
 					</tr>
 				<%}%>
 			</tbody>
